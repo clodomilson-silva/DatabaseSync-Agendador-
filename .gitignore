@@ -1,0 +1,25 @@
+# ─── Arquivos gerados em runtime ──────────────────────────────
+logs/
+backups/
+target/
+
+# ─── Configuração com credenciais REAIS ───────────────────────
+# Nunca versione este arquivo com senhas reais!
+# Mantenha um sync.properties.template com dados fictícios
+config/sync.properties
+
+# ─── Java / Maven ─────────────────────────────────────────────
+*.class
+*.jar
+!target/database-sync-*.jar
+
+# ─── IDE ──────────────────────────────────────────────────────
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# ─── Sistema ──────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
