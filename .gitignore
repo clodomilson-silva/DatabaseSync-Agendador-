@@ -3,6 +3,9 @@ logs/
 backups/
 target/
 
+# ignore helper scripts
+scripts/
+
 # ─── Configuração com credenciais REAIS ───────────────────────
 # Nunca versione este arquivo com senhas reais!
 # Mantenha um sync.properties.template com dados fictícios
@@ -23,3 +26,4 @@ config/sync.properties
 # ─── Sistema ──────────────────────────────────────────────────
 .DS_Store
 Thumbs.db
+*.pid
